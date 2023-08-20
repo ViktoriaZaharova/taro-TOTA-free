@@ -3,7 +3,7 @@
   background: url("../img/home-bg.png") no-repeat center top;
   background-size: cover;
   z-index: 1;
-  padding: 292px 0 0;
+  padding: 202px 0 0;
   text-align: center;
 }
 .home::before {
@@ -31,6 +31,15 @@
 .home .btn {
   margin: 69px auto 0;
 }
+.home .container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 
 .home-price {
   margin: 60px auto;
@@ -56,6 +65,9 @@
 .home-image {
   margin: 0 auto -670px;
   z-index: -2;
+}
+.home-image img {
+  width: 100%;
 }
 
 .about {
@@ -124,6 +136,7 @@
 .programm-card h3 {
   font-family: "Circe", sans-serif;
   font-weight: bold;
+  font-size: 30.5px;
   padding: 10px;
   margin: 0 auto 45px;
   height: 160px;
@@ -422,6 +435,7 @@
 .bonus-box h4 {
   font-size: 29px;
   color: #fefeff;
+  font-weight: normal;
   text-transform: uppercase;
 }
 

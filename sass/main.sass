@@ -6,7 +6,7 @@
 	background: url('../img/home-bg.png') no-repeat center top
 	background-size: cover
 	z-index: 1
-	padding: 292px 0 0
+	padding: 202px 0 0
 	text-align: center
 	&::before
 		content: ''
@@ -29,6 +29,9 @@
 		margin: 0 auto
 	.btn
 		margin: 69px auto 0
+	.container
+		flex-direction: column
+		align-items: center	
 
 .home-price
 	margin: 60px auto
@@ -51,6 +54,8 @@
 .home-image
 	margin: 0 auto -670px
 	z-index: -2
+	img
+		width: 100%
 
 // about
 .about
@@ -105,6 +110,7 @@
 	h3
 		font-family: $default-font
 		font-weight: bold
+		font-size: 30.5px
 		padding: 10px
 		margin: 0 auto 45px
 		height: 160px
@@ -322,6 +328,7 @@
 	h4
 		font-size: 29px
 		color: #fefeff
+		font-weight: normal
 		text-transform: uppercase
 
 // callback-section

@@ -202,6 +202,10 @@
     width: 208px;
     height: 280px;
   }
+  .author {
+    padding: 0;
+    margin: 0;
+  }
   .author h2 {
     max-width: 640px;
   }
@@ -257,5 +261,477 @@
   .copyright {
     max-width: 650px;
     margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 700px) {
+  h1 {
+    font-size: 90px;
+    max-width: 620px;
+  }
+  .home-image {
+    margin: 0 -15px -900px;
+  }
+  .home-price {
+    font-size: 30px;
+    margin: 40px auto 50px;
+  }
+  .home-price:after {
+    width: 720px;
+    height: 115px;
+  }
+  .author-photo {
+    margin: -350px auto 250px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  body {
+    line-height: 1.15;
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 71px;
+    max-width: 420px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .btn {
+    font-size: 12.5px;
+    letter-spacing: 0.12px;
+    height: 43px;
+    padding: 10px 25px;
+  }
+  header {
+    padding: 32px 0;
+  }
+  .logo {
+    max-width: 173px;
+  }
+  .home {
+    padding: 100px 0 0;
+  }
+  .home h3 {
+    font-size: 26.5px;
+    max-width: 420px;
+    line-height: 1.26;
+    letter-spacing: 0.66px;
+  }
+  .home .btn {
+    margin: 40px auto 0;
+  }
+  .home-price {
+    font-size: 22.5px;
+  }
+  .home-price:after {
+    width: 510px;
+    height: 80px;
+  }
+  .home-image {
+    margin: 0 -15px -830px;
+  }
+  .about {
+    padding: 505px 0 67px;
+    margin: 0;
+  }
+  .about .box-text {
+    max-width: 414px;
+  }
+  .about::before {
+    background: url("../img/bg2-576.jpg") no-repeat center;
+    background-size: 100%;
+    height: 623px;
+  }
+  .programm h2 {
+    margin: 0 auto 72px;
+    max-width: 270px;
+  }
+  .programm-card {
+    margin: 0 auto 30px;
+    height: 370px;
+    width: 253px;
+    padding: 133px 20px 30px;
+  }
+  .programm-card h3 {
+    font-size: 19px;
+    width: 100%;
+    height: 99px;
+    margin: 0 auto 28px;
+  }
+  .programm-card h3::before {
+    width: 350px;
+    height: 120px;
+  }
+  .programm-card .box-text {
+    font-size: 19px;
+    line-height: 1.08;
+  }
+  .text-description {
+    margin: 40px auto 0;
+    max-width: 426px;
+    line-height: inherit;
+  }
+  .stages-learn {
+    margin: 70px 0;
+  }
+  .stages-learn::before {
+    background: url("../img/learn-bg-576.png") no-repeat center;
+    background-size: 100%;
+    height: 1291px;
+  }
+  .stages-learn h2 {
+    margin: 0 auto 70px;
+    max-width: 400px;
+  }
+  .stages-learn h4 {
+    margin: 15px auto 0;
+    font-size: 24.5px;
+    max-width: 440px;
+  }
+  .stages-learn-card {
+    margin: 0 auto 55px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    max-width: 435px;
+  }
+  .stages-learn-card__icon {
+    width: 63px;
+    height: 102px;
+  }
+  .stages-learn-card__icon img {
+    width: calc(100% + 40px);
+    height: calc(100% + 40px);
+  }
+  .stages-learn-card__body {
+    padding: 0 0 0 32px;
+    width: calc(100% - 63px);
+  }
+  .stages-learn-card h3 {
+    font-size: 51.5px;
+    margin: 0 0 10px;
+  }
+  .stages-learn-card h3 span {
+    font-size: 52.5px;
+  }
+  .stages-learn-card .box-text {
+    line-height: inherit;
+  }
+  .author h2 {
+    margin: 0 auto 45px;
+    max-width: 395px;
+  }
+  .author .box-text {
+    max-width: 400px;
+  }
+  .author h3 {
+    margin: 62px auto 0;
+    font-size: 19px;
+    max-width: 405px;
+  }
+  .author-photo {
+    margin: -350px auto 200px;
+  }
+  .stages {
+    margin: 72px 0 0;
+  }
+  .stages h2 {
+    margin: 0 auto 70px;
+    max-width: 405px;
+  }
+  .stages h3 {
+    margin: 0 auto 66px;
+    font-size: 20px;
+  }
+  .stages-box {
+    font-size: 18px;
+    margin: 0 auto 60px;
+  }
+  .stages-box:nth-child(2) {
+    margin: 0 auto 60px;
+  }
+  .stages-box__icon {
+    width: 63px;
+    height: 63px;
+  }
+  .stages-box .number {
+    margin: 17px auto 12px;
+    width: 32px;
+    height: 32px;
+    font-size: 19px;
+  }
+  .stages-box .box-text {
+    font-size: 18px;
+    line-height: 1.14;
+  }
+  .bonus-box {
+    max-width: 400px;
+    padding: 43px 20px 45px;
+  }
+  .bonus-box h3 {
+    margin: 0 auto;
+    font-size: 45.5px;
+    line-height: 1.22;
+    letter-spacing: 0.23px;
+  }
+  .bonus-box h4 {
+    margin: 36px auto 40px;
+    font-size: 21.5px;
+    max-width: 318px;
+  }
+  .bonus-box::before {
+    width: 457px;
+    height: 340px;
+  }
+  .callback-section {
+    margin: 114px auto 109px;
+  }
+  .callback {
+    min-height: 270px;
+    max-width: 265px;
+  }
+  .social h2 {
+    font-size: 34.5px;
+    max-width: 370px;
+  }
+  .social .box-text {
+    font-size: 20.5px;
+    max-width: 336px;
+  }
+  .list-social {
+    margin: 35px auto 0;
+  }
+  .list-social li {
+    margin: 0 23px 0 0;
+  }
+  .list-social li a {
+    width: 54px;
+    height: 54px;
+    padding: 12px;
+  }
+  footer {
+    padding: 106px 0 56px;
+  }
+  footer::before {
+    background: url("../img/footer-bg-576.jpg") no-repeat center bottom;
+    background-size: 100%;
+    height: 1046px;
+  }
+  .copyright {
+    max-width: 406px;
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .home-image {
+    margin: 0 -15px -680px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  h1 {
+    font-size: 63.5px;
+    max-width: 380px;
+  }
+  h2 {
+    font-size: 27px;
+  }
+  body {
+    font-size: 18px;
+    line-height: 1.14;
+  }
+  .box-text p {
+    margin: 0 0 20px;
+  }
+  .box-text p:last-child {
+    margin: 0;
+  }
+  .btn {
+    border-radius: 18.7px;
+    height: 39px;
+    font-size: 11px;
+    padding: 0 23px;
+    letter-spacing: 0.11px;
+  }
+  .logo {
+    max-width: 155px;
+  }
+  header {
+    padding: 29px 0;
+  }
+  .home h3 {
+    font-size: 24px;
+    line-height: 1.25;
+    letter-spacing: 0.6px;
+    max-width: 370px;
+  }
+  .home .btn {
+    margin: 36px auto 0;
+  }
+  .home-price {
+    margin: 22px auto 30px;
+    font-size: 20px;
+  }
+  .home-price:after {
+    width: 455px;
+    height: 70px;
+  }
+  .home-image {
+    margin: 0 -15px -600px;
+  }
+  .about {
+    padding: 276px 0 60px;
+  }
+  .about .box-text {
+    max-width: 372px;
+  }
+  .about::before {
+    height: 300px;
+    background: url("../img/bg2-430.jpg") no-repeat center;
+    background-size: 100%;
+  }
+  .programm h2 {
+    margin: 0 auto 64px;
+  }
+  .programm-card {
+    width: 226px;
+    height: 331px;
+    margin: 0 auto 27px;
+    padding: 119px 17px 27px;
+  }
+  .programm-card .box-text {
+    font-size: 17px;
+    line-height: 1.09;
+  }
+  .programm-card h3 {
+    line-height: 1.12;
+    font-size: 17px;
+    margin: 0 auto 25px;
+    height: 89px;
+  }
+  .programm-card h3::before {
+    width: 295px;
+    height: 103px;
+  }
+  .text-description {
+    margin: 34px auto 0;
+    max-width: 380px;
+  }
+  .text-description br {
+    display: none;
+  }
+  .stages-learn {
+    margin: 64px 0;
+  }
+  .stages-learn h2 {
+    margin: 0 auto 60px;
+  }
+  .stages-learn h4 {
+    margin: 16px auto 0;
+    font-size: 22px;
+    max-width: 400px;
+  }
+  .stages-learn-card {
+    margin: 0 0 46px;
+  }
+  .stages-learn-card__icon {
+    width: 56px;
+    height: 91px;
+  }
+  .stages-learn-card__body {
+    width: calc(100% - 51px);
+    padding: 0 0 0 29px;
+  }
+  .stages-learn-card h3 {
+    font-size: 46px;
+  }
+  .stages-learn-card h3 span {
+    font-size: 47px;
+  }
+  .author h2 {
+    max-width: 360px;
+    margin: 0 auto;
+  }
+  .author .box-text {
+    max-width: 357px;
+  }
+  .author h3 {
+    margin: 56px auto 0;
+    font-size: 18px;
+    max-width: 357px;
+  }
+  .author-photo {
+    margin: -300px auto 20px;
+  }
+  .stages {
+    margin: 64px 0 0;
+  }
+  .stages h2 {
+    max-width: 367px;
+    margin: 0 auto 63px;
+  }
+  .stages h3 {
+    margin: 0 auto 59px;
+    font-size: 18px;
+  }
+  .stages-box {
+    margin: 0 auto 55px;
+    font-size: 16px;
+  }
+  .stages-box:nth-child(2) {
+    margin: 0 auto 55px;
+  }
+  .stages-box__icon {
+    width: 56px;
+    height: 56px;
+  }
+  .stages-box .number {
+    margin: 16px auto 11px;
+    width: 29px;
+    height: 29px;
+    font-size: 17px;
+  }
+  .bonus-box {
+    width: 358px;
+    padding: 38px 10px 40px;
+  }
+  .bonus-box::before {
+    width: 390px;
+    height: 300px;
+  }
+  .bonus-box h3 {
+    font-size: 41px;
+    margin: 0 auto;
+  }
+  .bonus-box h4 {
+    margin: 33px auto 35px;
+    font-size: 19.5px;
+    max-width: 300px;
+    line-height: 1.13;
+  }
+  .callback-section {
+    margin: 100px 0;
+  }
+  .callback {
+    max-width: 238px;
+    min-height: 230px;
+  }
+  .social h2 {
+    font-size: 31px;
+  }
+  .list-social {
+    margin: 32px 0 0;
+  }
+  .list-social li {
+    margin: 0 20px 0 0;
+  }
+  .list-social li a {
+    width: 48px;
+    height: 48px;
+  }
+  footer {
+    padding: 95px 0 50px;
+  }
+  .copyright {
+    font-size: 13.5px;
+    max-width: 365px;
   }
 }

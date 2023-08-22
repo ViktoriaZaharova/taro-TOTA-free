@@ -128,6 +128,8 @@ a:hover, a:focus {
 
 input, textarea, select {
   outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -135,24 +137,13 @@ input, textarea, select {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Circe", sans-serif;
+  border: none;
+  border-radius: 10px;
   width: 100%;
   height: 54px;
   background: transparent;
   color: #000;
   font-size: 15px;
-  width: 100%;
-  height: 88px;
-  padding: 0 20px 0 33px;
-  -webkit-box-shadow: inset 0 0 25px rgba(139, 139, 139, 0.8);
-          box-shadow: inset 0 0 25px rgba(139, 139, 139, 0.8);
-  border-radius: 7px;
-  background-color: #ffffff;
-  color: #000000;
-  font-size: 21px;
-  font-weight: 400;
-  border: 2px solid transparent;
-  -webkit-transition: border-color 0.3s ease;
-  transition: border-color 0.3s ease;
 }
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder, select::-webkit-input-placeholder {
   color: #595959;

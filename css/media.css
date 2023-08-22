@@ -572,13 +572,13 @@
     margin: 0 -15px -600px;
   }
   .about {
-    padding: 296px 0 60px;
+    padding: 356px 0 60px;
   }
   .about .box-text {
     max-width: 372px;
   }
   .about::before {
-    height: 350px;
+    height: 500px;
   }
   .programm h2 {
     margin: 0 auto 64px;
@@ -780,10 +780,13 @@
     width: 340px;
   }
   .about {
-    padding: 275px 0 44px;
+    padding: 355px 0 44px;
   }
   .about .box-text {
     max-width: 276px;
+  }
+  .about::before {
+    height: 550px;
   }
   .programm h2 {
     margin: 0 auto 48px;
@@ -931,11 +934,10 @@
     margin: 0 -15px -450px;
   }
   .about {
-    padding: 205px 0 44px;
+    padding: 265px 0 44px;
   }
   .about:before {
-    height: 275px;
-    top: -30px;
+    height: 355px;
   }
   .programm-card {
     width: 169px;
